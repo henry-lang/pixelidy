@@ -25,7 +25,7 @@ impl Pixelidy {
 impl eframe::App for Pixelidy {
     fn update(&mut self, ctx: &Context, _: &mut eframe::Frame) {
         CentralPanel::default().show(ctx, |ui| {
-            if ui.add(Button::new(RichText)).clicked() {
+            if ui.add(Button::new("Click me")).clicked() {
                 println!("Clicked!");
             }
         });
