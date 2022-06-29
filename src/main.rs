@@ -84,9 +84,9 @@ fn main() {
                 expansion: 0.0,
             },
             hovered: WidgetVisuals {
-                bg_fill: Color32::WHITE,
+                bg_fill: Color32::BLACK,
                 bg_stroke: Stroke::new(2.0, Color32::BLACK),
-                fg_stroke: Stroke::new(1.0, Color32::BLACK),
+                fg_stroke: Stroke::new(1.0, Color32::WHITE),
                 rounding: Rounding::none(),
                 expansion: 0.0,
             },
